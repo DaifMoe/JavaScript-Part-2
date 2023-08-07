@@ -1,0 +1,42 @@
+The 4 Pillars of OOP:
+Encapsulation, Abstraction, Inheritance, Polymorphism
+In OOP we refer to variables as Properties, and to Functions as Methods
+
+Example of OOP The Car:
+Car Properties: Make, Model, Color
+Car Methods: Start(), Stop(), Move()
+
+Every Browser Has a Local Storage Object that allows you to store data locally
+
+Encapsulation Definition: In OOP we group related variables and functions that operate on them into objects.
+
+Example of regular procedural code: 
+let baseSalary = 30000;
+let overtime = 10;
+let rate = 20;
+
+function getWage(baseSalary, overtime, rate) {
+    return baseSalary + (overTime * rate);
+}
+
+Now lets solve it using the OOP approach:
+let employee = {
+    baseSalary: 30000,
+    overtime: 10,
+    rate: 20,
+    getWage: function() {
+        return this.baseSalary + (this.overtime * this.rate);
+    }
+};
+employee.getWage();
+
+Abstraction: 
+Example: Think of a dvd player that has complex logic board on the inside a few buttons on the outside
+
+Abstraction Benefits: Simpler Interface, Reduce The Impact of Change, 
+
+Inheritance (allows you to eliminate redundant code)
+Inheritance Example HTML Element: 
+define them once in a generic object call it HTML Element and have other objects inherit these properties and Methods
+
+Polymorphism (poly means many and morph means form polymorphism allows you to get rid of long if an else and switch and case statements)
