@@ -1,0 +1,21 @@
+Circle Class 
+with one method computeOptimumLocation()
+
+Square Class
+with one method computeOptimumLocation()
+
+this is bad as if there is a bug in computeOptimumLocation since 
+its defined twice there is gonna be an issue in both classes and 
+you have to go int oboth and fix them individually.
+
+
+
+Instead a better solution is through using inheritance
+
+create a shape class (aka base/super/parent)
+and have the circle and square inherit from it
+
+
+Two types of classes Classical and Prototypical
+classical is because of classes (doesnt really apply to JS)
+Prototypical applies more to JS
