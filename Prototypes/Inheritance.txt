@@ -24,3 +24,14 @@ A prototype is a parent so every object has a prototype or parent escept the roo
 
 Every object we create in JS either directly or indirectly inherits from object base
 object base is the root of all objects in javascript and it doesnt have prototype or parent
+
+
+All Objects created by a given constructor will have the same prototype.
+All circles created by the circle constructor will have the same prototype.
+All arrays created by the array constructor will have the same prototype.
+
+This is how the tree looks like:
+
+                                --- inherits from objectBase
+        inherits from circleBase
+Circle --
